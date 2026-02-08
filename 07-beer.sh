@@ -43,3 +43,26 @@ while [ $count -ge 0 ]; do
 	((count = count - 1))
 	
 done
+
+# PTH -- Exercise from above
+
+echo "Now we sing about syntax errors!"
+echo "How many syntax errors?"
+read count
+
+while [ $count -ge 0 ]; do
+	if [ $count -ge 2 ]; then
+		echo "$count little syntax errors causing pains in my head"
+		echo "changed one line and now my program's dead"
+		echo "Peyton called the professor and the professor said"
+		echo "No more syntax errors making your programs dead!"
+	else
+		echo "$count little syntax errors causing pains in my head"
+		echo "changed one line and now my program's dead"
+		echo "Peyton called the professor and the professor said"
+		echo "No more syntax errors making your programs dead!"
+	fi
+	
+	((count = count - 1))
+	
+done
