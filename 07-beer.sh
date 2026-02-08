@@ -61,6 +61,7 @@ while [ $count -ge 0 ]; do
 		echo "changed one line and now my program's dead"
 		echo "Peyton called the professor and the professor said"
 		echo "No more syntax errors making your programs dead!"
+		echo "THIS PROGRAM HAS BEEN SLIGHTLY CHANGED FOR THE EXERCISE"
 	fi
 	
 	((count = count - 1))
